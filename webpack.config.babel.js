@@ -1,6 +1,11 @@
 import path from 'path';
+import webpack from 'webpack';
 
 const js = {
+  plugins: [
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.NoErrorsPlugin(),
+  ],
   entry: './index.jsx',
   output: {
     path: path.join(__dirname, 'public'),
