@@ -37,17 +37,11 @@ const js = {
         test: /\.js$/,
         include: path.resolve('src'),
         loader: 'babel',
-        query: {
-          presets: ['es2015'],
-        },
       },
       {
         test: /\.jsx$/,
         // include: path.resolve('src'),
         loader: 'babel',
-        query: {
-          presets: ['react', 'es2015'],
-        },
       },
     ],
   },
