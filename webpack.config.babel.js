@@ -42,7 +42,7 @@ const js = {
       {
         test: /\.jsx$/,
         // include: path.resolve('src'),
-        loader: 'babel',
+        loaders: ['react-hot', 'babel'],
       },
     ],
   },
