@@ -30,6 +30,7 @@ const js = {
       {
         test: /\.jsx?$/,
         loader: 'eslint',
+        exclude: path.resolve('node_modules'),
       },
     ],
     loaders: [
