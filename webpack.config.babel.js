@@ -8,14 +8,14 @@ const js = {
   ],
   entry: './index.jsx',
   output: {
-    path: path.join(__dirname, 'public'),
+    path: path.join(__dirname, 'dist'),
     publicPath: '',
     filename: 'bundle.js',
   },
   devServer: {
     // https://webpack.github.io/docs/webpack-dev-server.html#the-historyapifallback-option
     // https://github.com/callemall/material-ui-webpack-example/blob/4dba4758a56756921e2ec75b352c41d1325a6241/webpack-dev-server.config.js
-    contentBase: './public',
+    contentBase: './dist',
     hot: true,
     inline: true,
     host: "0.0.0.0",
