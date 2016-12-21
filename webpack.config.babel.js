@@ -35,15 +35,10 @@ const js = {
     ],
     loaders: [
       {
-        test: /\.js$/,
-        include: path.resolve('src'),
-        loader: 'babel',
-      },
-      {
         test: /\.jsx$/,
-        // include: path.resolve('src'),
         loaders: ['react-hot', 'babel'],
-      },
+        exclude: /node_modules/,
+      }
     ],
   },
 };
