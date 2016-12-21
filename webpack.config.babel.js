@@ -25,7 +25,7 @@ const js = {
     // which can be done by setting historyApiFallback: true
     historyApiFallback: true,
   },
-  devtool: 'source-map',
+  devtool: 'cheap-module-eval-source-map',
   module: {
     preLoaders: [
       {
