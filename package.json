@@ -7,7 +7,7 @@
     "start": "webpack-dev-server",
     "build": "webpack"
   },
-  "author": "",
+  "author": "m-ueno",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0",
