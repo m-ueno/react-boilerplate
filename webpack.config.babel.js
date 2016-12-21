@@ -18,6 +18,7 @@ const js = {
     contentBase: './public',
     hot: true,
     inline: true,
+    host: "0.0.0.0",
     port: 3000,
     // If you are using the HTML5 history API you probably need to serve
     // your index.html in place of 404 responses,
